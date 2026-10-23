@@ -1,0 +1,212 @@
+{
+ "invalid_curves": [
+  {
+   "plate_id": "P01",
+   "sample_id": "QC-H",
+   "reason": "reference_unsuitable"
+  },
+  {
+   "plate_id": "P01",
+   "sample_id": "QC-L",
+   "reason": "reference_unsuitable"
+  },
+  {
+   "plate_id": "P01",
+   "sample_id": "QC-M",
+   "reason": "reference_unsuitable"
+  },
+  {
+   "plate_id": "P04",
+   "sample_id": "QC-M",
+   "reason": "plateau_mismatch"
+  },
+  {
+   "plate_id": "P06",
+   "sample_id": "QC-L",
+   "reason": "plateau_mismatch"
+  },
+  {
+   "plate_id": "P06",
+   "sample_id": "QC-M",
+   "reason": "insufficient_doses"
+  },
+  {
+   "plate_id": "P14",
+   "sample_id": "QC-H",
+   "reason": "plateau_mismatch"
+  }
+ ],
+ "accuracy": {
+  "QC-H": true,
+  "QC-L": true,
+  "QC-M": true
+ },
+ "precision": true,
+ "verdict": "qualified",
+ "relative_potency": {
+  "QC-H": [
+   {
+    "plate_id": "P02",
+    "relative_potency": 2.2481
+   },
+   {
+    "plate_id": "P03",
+    "relative_potency": 2.034
+   },
+   {
+    "plate_id": "P04",
+    "relative_potency": 1.8219
+   },
+   {
+    "plate_id": "P05",
+    "relative_potency": 1.6121
+   },
+   {
+    "plate_id": "P06",
+    "relative_potency": 2.096
+   },
+   {
+    "plate_id": "P07",
+    "relative_potency": 1.6652
+   },
+   {
+    "plate_id": "P08",
+    "relative_potency": 2.0499
+   },
+   {
+    "plate_id": "P09",
+    "relative_potency": 1.6794
+   },
+   {
+    "plate_id": "P10",
+    "relative_potency": 1.8041
+   },
+   {
+    "plate_id": "P11",
+    "relative_potency": 2.1325
+   },
+   {
+    "plate_id": "P12",
+    "relative_potency": 2.1379
+   },
+   {
+    "plate_id": "P13",
+    "relative_potency": 2.1947
+   },
+   {
+    "plate_id": "P15",
+    "relative_potency": 2.2252
+   }
+  ],
+  "QC-L": [
+   {
+    "plate_id": "P02",
+    "relative_potency": 0.5068
+   },
+   {
+    "plate_id": "P03",
+    "relative_potency": 0.5742
+   },
+   {
+    "plate_id": "P04",
+    "relative_potency": 0.4084
+   },
+   {
+    "plate_id": "P05",
+    "relative_potency": 0.4645
+   },
+   {
+    "plate_id": "P07",
+    "relative_potency": 0.4191
+   },
+   {
+    "plate_id": "P08",
+    "relative_potency": 0.4843
+   },
+   {
+    "plate_id": "P09",
+    "relative_potency": 0.6058
+   },
+   {
+    "plate_id": "P10",
+    "relative_potency": 0.4567
+   },
+   {
+    "plate_id": "P11",
+    "relative_potency": 0.5578
+   },
+   {
+    "plate_id": "P12",
+    "relative_potency": 0.5651
+   },
+   {
+    "plate_id": "P13",
+    "relative_potency": 0.4758
+   },
+   {
+    "plate_id": "P14",
+    "relative_potency": 0.4866
+   },
+   {
+    "plate_id": "P15",
+    "relative_potency": 0.5114
+   }
+  ],
+  "QC-M": [
+   {
+    "plate_id": "P02",
+    "relative_potency": 1.2333
+   },
+   {
+    "plate_id": "P03",
+    "relative_potency": 0.8094
+   },
+   {
+    "plate_id": "P05",
+    "relative_potency": 1.0081
+   },
+   {
+    "plate_id": "P07",
+    "relative_potency": 0.8345
+   },
+   {
+    "plate_id": "P08",
+    "relative_potency": 0.9267
+   },
+   {
+    "plate_id": "P09",
+    "relative_potency": 0.9475
+   },
+   {
+    "plate_id": "P10",
+    "relative_potency": 0.8662
+   },
+   {
+    "plate_id": "P11",
+    "relative_potency": 1.1314
+   },
+   {
+    "plate_id": "P12",
+    "relative_potency": 1.0482
+   },
+   {
+    "plate_id": "P13",
+    "relative_potency": 0.9064
+   },
+   {
+    "plate_id": "P14",
+    "relative_potency": 1.1187
+   },
+   {
+    "plate_id": "P15",
+    "relative_potency": 1.174
+   }
+  ]
+ },
+ "recovery_percent": {
+  "QC-H": 98.22,
+  "QC-L": 99.59,
+  "QC-M": 99.14
+ },
+ "precision_gcv_percent": 12.7
+}

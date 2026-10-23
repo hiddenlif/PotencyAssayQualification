@@ -1,0 +1,5 @@
+sample_id,role,nominal_ratio,matrix,stock
+REF,reference,1.0,buffer,
+QC-L,control,0.50,buffer,1000.0
+QC-M,control,1.00,serum,1000.0
+QC-H,control,2.00,serum,1000.0
