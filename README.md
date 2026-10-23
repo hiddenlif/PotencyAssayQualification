@@ -44,3 +44,7 @@ To build the image: `docker build -t potency-assay-qualification .`
 ## Status
 
 The starter raises `NotImplementedError`. No reference solution is included.
+
+## Reference solution and verifier
+
+The reference solution and the verifier, which holds the held-out cases, their sealed expected results and the grading code, are not in this repository. They are kept in the private repository `science-task-solutions`, in the `PotencyAssayQualification/` folder, together with a script that runs the verifier on a candidate.
