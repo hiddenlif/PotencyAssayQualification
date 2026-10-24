@@ -1,4 +1,4 @@
-# Potency assay qualification
+# AI Evaluation Task: Reporter-Gene Potency Assay Qualification
 
 Qualify a cell-based reporter-gene potency assay from its plate, dilution and liquid-handler records: relative potency of each control against the reference, curve acceptance, accuracy, precision and the study verdict.
 
@@ -19,7 +19,7 @@ A qualification study runs several assay plates. Each plate carries a reference 
 - `app/check_practice.py`: compares the module's decisions with the signed-off reports.
 - `Dockerfile`: the image the task was written against.
 
-Practice data: Three studies that QA signed off (`QS-6103`, `QS-6104`, `QS-6105`), each with its report.
+Practice data: Three synthetic practice studies with fictional QA sign-offs (`QS-6103`, `QS-6104`, `QS-6105`), each with its report.
 
 Not included: Five further studies waiting for review. Every control's accuracy, the precision flag, the verdict and the set of invalid curves have to be right on each of them, and the module has to run inside the time limit. These files are not in this repository.
 
