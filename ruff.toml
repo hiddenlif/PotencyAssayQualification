@@ -1,0 +1,5 @@
+# Linted and formatted with ruff using its default rules. The per-file exceptions below are deliberate.
+
+[lint.per-file-ignores]
+# The practice checker reports a crashing candidate as a failed study instead of stopping.
+"app/check_practice.py" = ["BLE001"]
